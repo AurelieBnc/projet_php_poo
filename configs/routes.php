@@ -14,6 +14,11 @@ switch (ROUTE){
         $mainController->home();
         break;
 
+        // route de la page d'inscription
+    case '/creer-un-compte/';
+        $mainController->register();
+        break;
+
     default:
         $mainController->page404();
         break;

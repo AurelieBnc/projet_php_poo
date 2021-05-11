@@ -9,6 +9,9 @@
                 <li class="nav-item">
                     <a class="nav-link <?= (ROUTE=='/') ? ' active' : ''; ?>" href="<?= PUBLIC_PATH ?>">Accueil</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link <?= (ROUTE=='/creer-un-compte/') ? ' active' : ''; ?>" href="<?= PUBLIC_PATH.'creer-un-compte/' ?>">Inscription</a>
+                </li>
             </ul>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

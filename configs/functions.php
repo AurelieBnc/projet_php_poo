@@ -30,3 +30,15 @@ function request_path()
     }
     return $path;
 }
+
+//Fonction de connexion à la bdd
+function connectDb(){
+
+    $db = new PDO('mysql:host='. DB_HOST.';dbname='. DB_NAME.';charset=utf8', DB_USER, DB_PASSWORD );
+    //paramètre définis dans le fichier params.php
+
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    return $db;
+
+}

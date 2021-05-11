@@ -9,7 +9,6 @@
 <body>
     <?php include VIEWS_DIR.'partials/menu.php'; ?>
 
-    <?php include VIEWS_DIR. 'partials/footer.php'; ?>
 
     <div class="container">
 
@@ -61,7 +60,7 @@
                         <?= isset($errors['lastname']) ? '<div class="invalid-feedback">' . $errors['lastname'] . '</div>' : ''; ?>
                     </div>
                     <div class="mb-3">
-                        <input type="submit" class="col-12 btn btn-success " value="Créer mon compte">
+                        <input type="submit" class="col-12 btn btn-success text-center " value="Créer mon compte">
                     </div>
 
                 </form>
@@ -74,5 +73,7 @@
         </div>
 
     </div>
+
+    <?php include VIEWS_DIR. 'partials/footer.php'; ?>
 </body>
 </html>

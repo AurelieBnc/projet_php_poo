@@ -9,7 +9,7 @@
 <body>
     <?php include VIEWS_DIR.'partials/menu.php'; ?>
 
-    <?php include VIEWS_DIR. 'partials/footer.php'; ?>
+
 
     <div class="container">
 
@@ -20,5 +20,7 @@
         </div>
 
     </div>
+
+    <?php include VIEWS_DIR. 'partials/footer.php'; ?>
 </body>
 </html>

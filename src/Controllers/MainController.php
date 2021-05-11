@@ -98,7 +98,8 @@ class MainController{
         //Modifie le HTTP code pour qu'il soit bien 404 et non 200
         header('HTTP/1.0 404 Not Found');
 
-        echo '<h1>Erreur page 404</h1>';
+        //charge la vue 404.php dans le dossier des vues "views"
+        require VIEWS_DIR.'404.php';
     }
 
 }

@@ -10,7 +10,7 @@ $mainController = new MainController();
 // Chaque URL corresopnd à une page du site
 // Si aucun contrôleur ne correspond à la route demandée, c'est le contrôleur de la page 404 qui sera chargé
 switch (ROUTE){
-    case '/index.html';
+    case '/';
         $mainController->home();
         break;
 

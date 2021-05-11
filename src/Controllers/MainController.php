@@ -12,7 +12,8 @@ class MainController{
      * Controleur de la page d'acceuil du site
      */
     public function home(){
-        echo '<h1>Acceuil</h1>';
+        // charge la vue home.php dans le dossier des vues "views"
+        require VIEWS_DIR. 'home.php';
     }
     /**
      * Controleur de la page d'erreur 404 du site
